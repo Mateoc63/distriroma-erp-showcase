@@ -108,3 +108,11 @@ flowchart TD
     Trigger -->|"3. Registra Gasto Atómico"| DB_Gasto
     
     Service -->|"4. Procesa Venta / Cta. Cte. / Cobranza"| DB_Venta
+```
+---
+
+## ✒️ Autoría y Desarrollo
+
+Diseñado, desarrollado e implementado por **Mateo Cagnoni**.
+* **LinkedIn:** [linkedin.com/in/mateocagnoni](https://www.linkedin.com/in/mateocagnoni)
+* **GitHub:** [@Mateoc63](https://github.com/Mateoc63)
