@@ -109,6 +109,15 @@ flowchart TD
     
     Service -->|"4. Procesa Venta / Cta. Cte. / Cobranza"| DB_Venta
 ```
+
+---
+## ☁️ Arquitectura de Despliegue & Cloud (Producción)
+
+El sistema se encuentra desplegado y operativo en una arquitectura distribuida de alta disponibilidad:
+
+* **Frontend (Next.js 14):** Hosted en **Vercel** con despliegue continuo (CI/CD) desde rama `main` y optimización de assets en edge.
+* **Backend API (Spring Boot 3):** Hosted en **Render** corriendo sobre Java 21, integrado con variables de entorno para la gestión segura de credenciales y políticas de CORS dinámicas.
+* **Database (PostgreSQL):** Instancia gestionada en **Supabase**, con pool de conexiones optimizado, backups y ejecución de scripts de *seeding* transaccionales.
 ---
 
 ## ✒️ Autoría y Desarrollo
