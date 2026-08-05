@@ -86,7 +86,7 @@ flowchart TD
         Services["Fetch API Layer & Resilient DTO Mappers"]
     end
 
-    subgraph BackendLayer["⚙️ Core API REST (Java 17 / Spring Boot 3)"]
+    subgraph BackendLayer["⚙️ Core API REST (Java 21 / Spring Boot 3)"]
         Controller["Rest Controllers (@RestControllerAdvice)"]
         Service["Service Layer (@Transactional)"]
         Trigger["Financial Trigger Manager"]
@@ -125,3 +125,9 @@ El sistema se encuentra desplegado y operativo en una arquitectura distribuida d
 Diseñado, desarrollado e implementado por **Mateo Cagnoni**.
 * **LinkedIn:** [linkedin.com/in/mateocagnoni](https://www.linkedin.com/in/mateocagnoni)
 * **GitHub:** [@Mateoc63](https://github.com/Mateoc63)
+
+---
+
+## 🔒 Confidencialidad & Propiedad Intelectual
+
+> **Nota**: Este repositorio constituye un **caso de estudio técnico y demostración de arquitectura**. Todos los datos de clientes, métricas financieras, productos y marcas comerciales expuestas en las capturas de pantalla han sido anonimizados o adaptados conforme a los acuerdos de confidencialidad (NDA).
